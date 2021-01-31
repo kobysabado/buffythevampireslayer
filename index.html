@@ -1,44 +1,103 @@
-<!--A step by step guide to setting up your HTML doc.
-This greyed out text is a comment.-->
-
-<!--1. ok, so we're ALWAYS going to define our HTML docs as HTML using this line:-->
- <!DOCTYPE html>
-
- <!--2. Then this line is specifying that we're reading HTML now, and specifying the LANGUAGE for the content of the document with the "lang" attribute-->
+<!DOCTYPE html>
 <html lang="en">
-
-<!--3. We start out our doc with a <head> tag in order to link up whatever we need. This is where your styles are linked, and your scripts.-->
   <head>
-
-<!--4.The first bit in the header should be a <meta> tag that specifies the character encoding of the page.
-Specifying it here ensures the document is displayed correctly even when it’s loaded directly from disk, without consulting a server.-->
     <meta charset="utf-8">
-
-<!--5. Define the name of your page so it shows up in your browser tab here-->
-    <title>Naomi Smalls</title>
+    <title>Buffy the Vampire Slayer</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;700&display=swap" rel="stylesheet">
 
+    <style>
+
+    body {
+      background-color: #C0C0C0 ;
+    }
+
+    body {
+      color:white;
+      font-weight:400;
+    }
+
+    a:hover{
+      color:red;
+    }
+
+    ul {
+      display:table;
+      margin:0 auto;
+    }
+
+    details:hover{
+      color:red;
+    }
+
+</style>
   </head>
 
   <body style="font-family: 'Roboto Mono', monospace;">
 
-<!--6. Now you get to the content of your page with the <body> tag.-->
-    <h1>Naomi Smalls</h1>
-    <h2>One of my favourite drag queens</h2>
-    <h4>I love her so much!! <3333</h4>
+    <center>
+    <h1 style="letter-spacing:0.5em">BUFFY THE VAMPIRE SLAYER</h1>
+    <img src="img/season1.png" alt="Buffy season one" width="50%" height="auto">
+    <p style="line-height:2rem">
+    <i>"Buffy the Vampire Slayer</i> is an American television series created by writer and director Joss Whedon, which aired from 1997–2003.
+    It featured the exploits of the Slayer Buffy Summers and her group of friends, the Scooby Gang, as they protected Sunnydale from <span style="font-weight:700">vampires, demons, and the forces of darkness."</span>
+    <a href="https://buffy.fandom.com/wiki/Buffy_the_Vampire_Slayer" target="_blank">(Fandom.com)</a>
+    </p>
 
-    <img src=https://z6mag.com/wp-content/uploads/2019/02/Screenshot_2019-02-05-22-28-34-34.png" width="40%" height="auto">
+    <h2>Who is Buffy?</h2>
+    <img src="img/prophecygirl.png" alt="Buffy with crossbow" width="50%" height="auto">
+    <h5 style="line-height:2rem"><i>"I may be dead, but at least I'm still pretty."(S1E12:Prophecy Girl)</i></h5>
+    <br>
+    <p style="line-height:2rem"><span style="font-weight:700">Buffy Anne Summers</span> is the title character of the <i>Buffy the Vampire Slayer</i> franchise. She first appeared in the 1992 film <i>Buffy the Vampire Slayer</i> before going on to appear in the television series and subsequent comic book of the same name.
+    The character has also appeared in the spin-off series <i>Angel</i>, as well as numerous non-canon expanded universe material, such as novels, comics, and video games. Buffy was portrayed by Kristy Swanson in the film, and later by <span style="font-weight:700">Sarah Michelle Gellar</span> in the television series.
+    <a href="https://en.wikipedia.org/wiki/Buffy_Summers" target="_blank">(Wikipedia.org)</a></p>
+    <br>
+    <p style="line-height:2rem">Buffy Anne Summers was a Slayer activated in the late 20th century. Born on January 19, 1981, she was called to be the Slayer in 1996 at the age of fifteen. Buffy was originally living in Los Angeles; but, due to an incident involving a gang of vampires at Hemery High School,
+    she moved to Sunnydale with her mother. There, she acted as guardian of the Hellmouth for seven years before the town's destruction in mid-2003.</p>
+    <br>
+    <p style="line-height:2rem">Initially a reluctant hero who constantly wished for nothing more than a normal life, Buffy eventually grew to embrace her destiny. Buffy was unique as a Slayer in many ways; she refused to sacrifice her ordinary life for her supernatural destiny,
+    often operated as part of a team with her friends the Scooby Gang, and had romantic relationships with notorious vampires Angel and Spike.</p>
 
-    <ul>
-      <li>She's pretty</li>
-      <li>Her fashion is impeccable</li>
-      <li>I love her so much! Did I mention that already?</li>
+    <h2>Scooby Gang</h2>
+    <img src="img/graduation.jpg" alt="Poster of main characters" width="30%" height="auto">
+    <p><strong>The "Scooby Gang" consists of...</strong></p>
+    <details>
+      <summary>Season 1&2</summary>
+        <ul style="list-style-type:none;">
+          <li>Buffy Summers</li>
+          <li>Willow Rosenberg</li>
+          <li>Xander Harris</li>
+          <li>Rupert Giles</li>
+      </ul>
+    </details>
+    <details>
+      <summary>Season 3</summary>
+        <ul style="list-style-type:none;">
+          <li>Buffy Summers</li>
+          <li>Willow Rosenberg</li>
+          <li>Xander Harris</li>
+          <li>Rupert Giles</li>
+          <li>Cordelia Chase</li>
+          <li>Oz</li>
+          <li>Angel</li>
+        </ul>
+    </details>
+    <details>
+      <summary>Season 4</summary>
+        <ul style="list-style-type:none;">
+          <li>Buffy Summers</li>
+          <li>Willow Rosenberg</li>
+          <li>Xander Harris</li>
+          <li>Oz</li>
+          <li>Tara Maclay</Li>
+          <li>Riley Finn<li>
+    </details>
+    <details>
+      <summary>Season 5</summary>
+        <ul style="list-style-type:none;">
 
-    <p>Naomi Smalls is the stage name of American drag queen and reality television personality Davis Heppenstall, best known as one of the runners-up on the eighth season of RuPaul's Drag Race as well as RuPaul's Drag Race All Stars season 4</p>
-<!--You can include any tag you want in here. Make sure you are using the correct tag for the content you want.
-For example, if you want an image, use the "img" tag and make sure you are adding the correct ATTRIBUTES-->
+
+
   </body>
-
-</html>
+  </html>
